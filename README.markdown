@@ -1,5 +1,10 @@
 KerKerInput(IMF) Readme
 ==================================
+The KerKer Input Method is an open source Chinese input method framework for Android, 
+and likely the first Chinese input methods ever implemented for the Android platform. 
+The new version contains improvements on precision of character selection for phonics-based 
+input and next-word-prediction using n-gram language model. 
+
 The new KerKerInput is now a input method framework on the existing Android IMF.
 Its goal is to provide common used components such as Virtual Keyboard, Physical
 KB <=> Virtual KB keycode conversion, candidates mechanism and most importantly
@@ -47,7 +52,7 @@ License
  The full code sweep for licensing issues is being working on, but all the framework
  parts are written by me, and will be using MIT license.
    
-    Copyright (c) 2008-2009 Chien-An Cho(itsZero)
+    Copyright (c) 2008-2009 Chien-An Cho(itsZero), Joseph Chee Chang (josephcc)
 
     Permission is hereby granted, free of charge, to any person
     obtaining a copy of this software and associated documentation
